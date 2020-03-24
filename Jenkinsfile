@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage("Build"){
       steps {
-        sh "build install"
+        sh "bundle install"
       }
     }
     stage("Tests"){
